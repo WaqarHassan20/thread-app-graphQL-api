@@ -1,0 +1,23 @@
+{
+  "name": "thread-app-api-graphql",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun --watch run src/bin.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express5": "^1.1.2",
+    "@prisma/client": "^6.17.1",
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0",
+    "prisma": "^6.17.1"
+  }
+}
